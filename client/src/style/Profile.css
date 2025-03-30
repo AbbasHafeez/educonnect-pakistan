@@ -1,0 +1,284 @@
+/* ========== SCOPED TO .tutor-page ========== */
+.tutor-page .profile-container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.tutor-page .profile-container.display {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.tutor-page .profile-image {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #007bff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
+}
+
+.tutor-page .profile-info {
+  flex: 1;
+}
+
+.tutor-page .profile-info h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #003366;
+}
+
+.tutor-page .profile-info p {
+  margin: 6px 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.tutor-page .profile-info strong {
+  color: #0056b3;
+}
+
+.tutor-page .manage-button {
+  margin-top: 20px;
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.tutor-page .manage-button:hover {
+  background-color: #0056b3;
+}
+
+.tutor-page .form-title {
+  font-size: 26px;
+  color: #003366;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.tutor-page .profile-form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px 40px;
+}
+
+.tutor-page .profile-container label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.tutor-page .profile-container input,
+.tutor-page .profile-container textarea,
+.tutor-page .profile-container select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.tutor-page .profile-preview {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 2px solid #007bff;
+}
+
+.tutor-page .message {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #d8000c;
+  text-align: center;
+}
+
+.tutor-page button {
+  display: block;
+  margin: 30px auto 0;
+  background-color: #28a745;
+  color: white;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.tutor-page button:hover {
+  background-color: #218838;
+}
+
+
+.availability-section {
+  margin-top: 40px;
+}
+
+.availability-section h3 {
+  color: #003366;
+  margin-bottom: 12px;
+}
+
+.availability-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.availability-table th,
+.availability-table td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.availability-table th {
+  background-color: #f8f8f8;
+}
+
+.availability-table input[type="checkbox"] {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.dashboard-buttons {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.dashboard-buttons .manage-button {
+  flex: 1;
+  text-align: center;
+}
+
+.tutor-page .dashboard-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tutor-page .dashboard-btn {
+  flex: 1 1 180px;
+  max-width: 220px;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+/* 🔵 Blue */
+.tutor-page .btn-blue {
+  background-color: #007bff;
+}
+.tutor-page .btn-blue:hover {
+  background-color: #0056b3;
+}
+
+/* 🟦 Cyan */
+.tutor-page .btn-cyan {
+  background-color: #17a2b8;
+}
+.tutor-page .btn-cyan:hover {
+  background-color: #138496;
+}
+
+/* 🟩 Green */
+.tutor-page .btn-green {
+  background-color: #28a745;
+}
+.tutor-page .btn-green:hover {
+  background-color: #218838;
+}
+
+/* Reviews section styles */
+.reviews-section {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 40px;
+}
+
+.reviews-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.review-list {
+  display: grid;
+  gap: 20px;
+}
+
+.review-item {
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  border-left: 5px solid #007bff;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review-header strong {
+  font-size: 16px;
+  color: #333;
+}
+
+.stars {
+  font-size: 16px;
+}
+
+.star-filled {
+  color: #f39c12;
+}
+
+.star-empty {
+  color: #ddd;
+}
+
+.review-comment {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+.no-reviews {
+  font-style: italic;
+  color: #555;
+}
+
+.availability-section {
+  margin-top: 15px;
+}
+
+.availability-list {
+  margin-top: 8px;
+  padding-left: 20px;
+}

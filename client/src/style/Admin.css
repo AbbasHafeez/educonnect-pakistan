@@ -1,0 +1,165 @@
+/* Admin.css */
+
+/* Global Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #003366;
+  }
+  
+  h3 {
+    font-size: 1.8rem;
+    color: #003366;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  
+  /* Admin Stats Section */
+  .admin-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .admin-stats p {
+    margin: 10px 0;
+    flex: 1;
+  }
+  
+  .admin-stats .stat-box {
+    background-color: #e6f7ff;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    min-width: 180px;
+    flex: 1;
+    border-radius: 8px;
+  }
+  
+  .admin-stats .stat-box h4 {
+    font-size: 1.6rem;
+  }
+  
+  /* Chart Layout */
+  .chart-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .chart {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .chart canvas {
+    max-height: 240px !important;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button.reject {
+    background-color: red;
+  }
+  
+  button.reject:hover {
+    background-color: darkred;
+  }
+  
+  button.logout {
+    background-color: red;
+  }
+  
+  button.logout:hover {
+    background-color: darkred;
+  }
+  
+  /* Filters & Selects */
+  select {
+    padding: 6px 12px;
+    margin-left: 10px;
+    font-size: 1rem;
+  }
+  
+  input[type="date"] {
+    padding: 6px 10px;
+    margin: 0 10px;
+  }
+  
+  /* Status Colors */
+  .status-approved {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .status-rejected {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Tutor Card */
+  .tutor-card,
+  .tutor-verification-item {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .admin-stats {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .admin-stats .stat-box {
+      margin-bottom: 20px;
+      width: 80%;
+    }
+  
+    .chart-section {
+      grid-template-columns: 1fr;
+    }
+  }
+  

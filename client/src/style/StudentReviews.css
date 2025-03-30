@@ -1,0 +1,79 @@
+.student-reviews-container {
+    padding: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .student-reviews-container h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .review-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    transition: box-shadow 0.2s ease;
+  }
+  
+  .review-card:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .review-header h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #007bff;
+  }
+  
+  .review-rating {
+    font-size: 16px;
+    color: #f39c12;
+  }
+  
+  .review-comment {
+    margin: 10px 0;
+    color: #444;
+  }
+  
+  .review-actions button {
+    margin-right: 10px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .review-actions .edit-btn {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  .review-actions .delete-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .review-actions .save-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .review-actions .cancel-btn {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .edit-area {
+    margin-top: 10px;
+  }
+  

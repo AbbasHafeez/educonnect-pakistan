@@ -1,0 +1,97 @@
+/* Home Page Styling */
+.home-container {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: #2c3e50;
+    padding: 20px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(to right, #007bff, #6610f2);
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-buttons .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .primary-btn {
+    background: white;
+    color: #007bff;
+    border: 2px solid white;
+  }
+  
+  .secondary-btn {
+    background: #ff6b6b;
+    color: white;
+    border: 2px solid #ff6b6b;
+  }
+  
+  /* Role Selection */
+  .role-selection {
+    padding: 40px;
+    background: #f8f9fa;
+  }
+  
+  .role-selection h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .role-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .role-btn {
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .role-btn:hover {
+    opacity: 0.8;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 40px;
+    background: white;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  

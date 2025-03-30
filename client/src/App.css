@@ -1,0 +1,252 @@
+/* Global Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #2c3e50;
+}
+
+/* Home Page Styling */
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #007bff, #6610f2);
+  color: white;
+  padding: 50px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.cta-buttons .btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.primary-btn {
+  background: white;
+  color: #007bff;
+  border: 2px solid white;
+}
+
+.primary-btn:hover {
+  background: #007bff;
+  color: white;
+}
+
+.secondary-btn {
+  background: #ff6b6b;
+  color: white;
+  border: 2px solid #ff6b6b;
+}
+
+.secondary-btn:hover {
+  background: white;
+  color: #ff6b6b;
+}
+
+/* Role Selection */
+.role-selection {
+  padding: 40px;
+  background: #f8f9fa;
+}
+
+.role-selection h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.role-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.role-btn {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.role-btn:hover {
+  opacity: 0.8;
+}
+
+/* About Section */
+.about {
+  padding: 40px;
+  background: white;
+}
+
+.about h2 {
+  font-size: 2rem;
+}
+
+/* Footer */
+.footer {
+  background: #2c3e50;
+  color: white;
+  padding: 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* Admin Panel Styling */
+.admin-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background: #2c3e50;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-content, .verification-content {
+  flex: 1;
+  padding: 20px;
+  background: #f8f9fa;
+  overflow-y: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background: #34495e;
+  color: white;
+}
+
+/* Buttons */
+button {
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.btn-approve {
+  background: green;
+}
+
+.btn-reject {
+  background: red;
+}
+
+/* ✅ New: Login & Register Form Styling */
+.auth-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.auth-container input,
+.auth-container select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.auth-container input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.auth-container button {
+  background: #007bff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.auth-container button:hover {
+  background: #0056b3;
+}
+
+/* ✅ New: Error & Loading Messages */
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.success-message {
+  color: green;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.loading-text {
+  text-align: center;
+  font-size: 1rem;
+  color: #555;
+}

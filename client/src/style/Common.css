@@ -1,0 +1,38 @@
+/* common.css */
+
+/* Common styles for buttons */
+button {
+    padding: 8px 16px;
+    border-radius: 8px;  /* Minor rounded corners */
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Logout Button Specific Styles */
+  button.logout {
+    background-color: red;
+    color: white;
+  }
+  
+  button.logout:hover {
+    background-color: darkred;
+  }
+  
+  /* Other Common Styles */
+  nav {
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  a:hover {
+    color: blue;
+  }
+  

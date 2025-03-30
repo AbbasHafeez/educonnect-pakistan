@@ -1,0 +1,63 @@
+.student-dashboard {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .student-actions {
+    margin-top: 30px;
+  }
+  
+  .dashboard-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dashboard-button:hover {
+    background-color: #0056b3;
+  }
+
+  .notification-box {
+    margin-top: 30px;
+    background: #fff3cd;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .notification-item {
+    margin-bottom: 8px;
+    border-left: 4px solid #ffc107;
+    padding-left: 10px;
+  }
+
+  .notification-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .notification-item {
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .delete-button {
+    background-color: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  
+  
